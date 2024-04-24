@@ -1,0 +1,31 @@
+{
+    "name": "floac/laravel-novaposhta",
+    "description": "Novaposhta api integration",
+    "license": "MIT",
+    "keywords": [
+        "laravel-poshta",
+        "laravel-novaposhta",
+        "novaposhta"
+    ],
+    "version": "1.0.0",
+    "authors": [
+        {
+        "name": "floac"
+        }
+    ],
+    "require": {
+        "laravel/framework": "> 9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Floac\\Novaposhta\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Floac\\Novaposhta\\ServiceProvider"
+            ]
+        }
+    }
+}
